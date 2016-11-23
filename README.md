@@ -7,7 +7,7 @@ Docker image for elastic [filebeat]
 
 ```
 filebeat:
-  image: tsaikd/filebeat:1.1.1
+  image: tsaikd/filebeat:1.3.1
   volumes:
     - ./filebeat/filebeat.yml:/filebeat/filebeat.yml:ro
 ```
@@ -15,4 +15,3 @@ filebeat:
 See https://www.elastic.co/guide/en/beats/filebeat/current/index.html for more document about [filebeat]
 
 [filebeat]: https://www.elastic.co/products/beats/filebeat
-
